@@ -21,6 +21,21 @@ MathJs.prototype = {
             result -= result / n;
         }
         return result;
+    },
+
+    /**
+     * Greatest Common Devider https://en.wikipedia.org/wiki/Greatest_common_divisor
+     */
+    gcd: function(a,b){
+        if(b == 0) {
+            return a;
+        }else{
+            if(a > b){
+                return this.gcd(b, a % b);
+            }else {
+                return this.gcd(a, b % a);
+            }
+        }
     }
 
 }
