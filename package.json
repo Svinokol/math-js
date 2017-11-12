@@ -1,0 +1,26 @@
+{
+  "name": "math",
+  "version": "1.0.0",
+  "description": "Mathematical Solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Svinokol/math-js.git"
+  },
+  "keywords": [
+    "math",
+    "mocha"
+  ],
+  "author": "Efim Matytsin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Svinokol/math-js/issues"
+  },
+  "homepage": "https://github.com/Svinokol/math-js#readme",
+  "dependencies": {
+    "mocha": "^4.0.1"
+  }
+}
