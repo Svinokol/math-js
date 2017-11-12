@@ -18,3 +18,9 @@ LCM
 Lower common multiplier 
 https://en.wikipedia.org/wiki/Least_common_multiple 
 > Usage: MathJs.lcm(1,2);
+
+Fibonacci numbers
+-----------------
+Calculate fibonacci numbers
+https://en.wikipedia.org/wiki/Fibonacci_number
+> Usage: MathJs.fibonachi(2);

@@ -43,6 +43,14 @@ MathJs.prototype = {
      */
     lcm: function(a,b){
         return a / this.gcd(a,b) * b;
+    },
+
+    /**
+     * Calculates n number of Fibonachi function
+     */
+    fibonachi: function(n){
+        var sqrt5 = Math.sqrt(5);
+        return (Math.pow((1+sqrt5)/2,n) - Math.pow((1-sqrt5)/2,n)) / sqrt5;
     }
 
 }
