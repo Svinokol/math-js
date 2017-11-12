@@ -36,6 +36,13 @@ MathJs.prototype = {
                 return this.gcd(a, b % a);
             }
         }
+    },
+
+    /**
+     * Lower common multiplier 
+     */
+    lcm: function(a,b){
+        return a / this.gcd(a,b) * b;
     }
 
 }
