@@ -14,6 +14,5 @@ describe('Math JS', function() {
     it('should return 4 when a = 2 and b = 4', function() {
        assert.equal(MathJs.lcm(2,4), 4);
     });
-    
   });
 });
